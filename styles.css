@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/Week-6/images/bg-pattern-top-desktop.svg);
+    background-image: url(/Week-6/images/bg-pattern-bottom-desktop.svg);
+    margin: 3rem;
+    background-position: left;
+}
+
+.header{
+    margin-top: 3rem;
+    margin-left: 3rem;
+    color: hsl(320, 93%, 22%);
+    padding-bottom: 0;
+    font-family: 'Fraunces', serif;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.para{
+    margin-left: 3rem;
+    margin-top: 1rem;
+    color: hsl(320, 93%, 22%);
+    font-size: x-small;
+    font-family: 'Fraunces', serif;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.star-box{
+    display: flex;
+    color: hsl(320, 93%, 22%);
+    font-family: 'Fraunces', serif;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.star-text1{
+    position: absolute; right: 30rem; top: 4rem;
+    display: flex;
+    border: 0.1rem solid thistle;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    /* gap: 1rem; */
+}
+
+.star-text2{
+    position: absolute; right: 27rem; top: 6.5rem;
+    display: flex;
+    border: 0.1rem solid thistle;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+.star-text3{
+    position: absolute; right: 25rem; top: 9rem;
+    display: flex;
+    border: 0.1rem solid thistle;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+.bottom-card{
+    display: flex;
+    gap: 0.5rem;
+
+}
+
+.colton{
+    border: 0.2rem solid hsl(320, 93%, 22%);
+    margin-top: 3rem;
+    background: hsl(320, 93%, 22%);
+    border-radius: 0.5rem;
+    width: 100%;
+}
+
+.card-image-colton{
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+/* .card-image-colton{ */
+    /* border: 0.1rem; */
+    /* border-radius: 50%; */
+/* } */
+/* what i tried doing in line 81-83 was to make my image roumded but it didn't work */
+
+.name-colt{
+    color: white;
+    font-size: smaller;
+    
+}
+
+.status-colt{
+    transform: translate(10px 10px);
+    color: hsl(333, 80%, 67%);
+
+}
+
+.colton-comment{
+    color: white;
+    font-size: small;
+    font-family: 'Fraunces', serif;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1rem;
+
+}
+
+.Irene{
+    border: 0.2rem solid hsl(320, 93%, 22%);
+    margin-top: 3rem;
+    background: hsl(320, 93%, 22%);
+    border-radius: 0.5rem;
+    display: grid;
+    gap: 2rem;   
+    width: 100%;
+}
+
+.anne{
+    border: 0.2rem solid hsl(320, 93%, 22%);
+    margin-top: 3rem;
+    background: hsl(320, 93%, 22%);
+    border-radius: 0.5rem;
+    display: grid;
+    gap: 2rem; 
+    width: 100%;  
+}
+
+.name-irene{
+    color: white;
+}
+
+.status-irene{
+    color: hsl(333, 80%, 67%);
+}
+
+.card-image-irene{
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.irene-com{
+    color: white;
+    font-size: small;
+    font-family: 'Fraunces', serif;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1rem;
+}
+
+.name-anne{
+    color: white;
+}
+
+.status-anne{
+    color: hsl(333, 80%, 67%)
+}
+
+.card-image-anne{
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.anne-comment{
+    color: white;
+    font-size: small;
+    font-family: 'Fraunces', serif;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1rem;
+}
+
+
+
